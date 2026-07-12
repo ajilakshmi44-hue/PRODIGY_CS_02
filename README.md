@@ -22,28 +22,6 @@ Every digital image is made up of pixels. Each pixel contains three color values
 - **Green (G):** 0–255
 - **Blue (B):** 0–255
 
-### Encryption
-
-The `encrypt()` function adds the secret key to each RGB value:
-
-```
-(R + key) % 256
-(G + key) % 256
-(B + key) % 256
-```
-
-### Decryption
-
-The `decrypt()` function subtracts the same secret key:
-
-```
-(R - key) % 256
-(G - key) % 256
-(B - key) % 256
-```
-
-The `% 256` operation ensures that all RGB values remain within the valid range of **0–255**.
-
 ---
 
 ## Code Explanation
