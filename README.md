@@ -14,15 +14,6 @@ A simple Python GUI application that encrypts and decrypts images using pixel ma
 
 ---
 
-## How It Works
-
-Every digital image is made up of pixels. Each pixel contains three color values:
-
-- **Red (R):** 0–255
-- **Green (G):** 0–255
-- **Blue (B):** 0–255
-
----
 
 ## Code Explanation
 
